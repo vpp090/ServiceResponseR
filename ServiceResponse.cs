@@ -1,5 +1,5 @@
 ﻿using System;
-namespace ServiceResponse
+namespace ServiceResponseR
 {
     public class ServiceResponse<T>
     {
