@@ -6,7 +6,7 @@
     <Nullable>disable</Nullable>
     <PackageId>ServiceResponseR</PackageId>
     <Title>ServiceResponse</Title>
-    <Version>2.0.1</Version>
+    <Version>2.0.2</Version>
     <Authors>vpp090</Authors>
     <Company>vpp090</Company>
     <Description>A NuGet package for common service responses.
@@ -16,14 +16,21 @@ Contains:
 ServiceResponse class with properties:
 
 T Data
+
 ErrorMessage
+
 ErrorDetails
+
 ErrorCode
+
 IsSuccess
 
 There is a separate ErrorDetails class for further information about developers with properties
+
 DevelopmentMessage
-AdditionalContext</Description>
+
+AdditionalContext
+</Description>
     <PackageIcon>setico.png</PackageIcon>
     <PackageReadmeFile>srreadme.md</PackageReadmeFile>
     <RepositoryType>git</RepositoryType>
@@ -35,8 +42,8 @@ Added IsSuccess boolean property</PackageReleaseNotes>
     <PackageLicenseFile>license.txt</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <AssemblyVersion>2.0.1</AssemblyVersion>
-    <FileVersion>2.0.1</FileVersion>
+    <AssemblyVersion>2.0.2</AssemblyVersion>
+    <FileVersion>2.0.2</FileVersion>
     <PackageProjectUrl></PackageProjectUrl>
     <RepositoryUrl>https://github.com/vpp090/ServiceResponseR</RepositoryUrl>
   </PropertyGroup>
