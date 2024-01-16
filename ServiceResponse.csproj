@@ -6,7 +6,7 @@
     <Nullable>disable</Nullable>
     <PackageId>ServiceResponseR</PackageId>
     <Title>ServiceResponse</Title>
-    <Version>2.0.3</Version>
+    <Version>2.0.4</Version>
     <Authors>vpp090</Authors>
     <Company>vpp090</Company>
     <Description>A NuGet package for common service responses.
@@ -42,8 +42,8 @@ Added IsSuccess boolean property</PackageReleaseNotes>
     <PackageLicenseFile>license.txt</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <AssemblyVersion>2.0.3</AssemblyVersion>
-    <FileVersion>2.0.3</FileVersion>
+    <AssemblyVersion>2.0.4</AssemblyVersion>
+    <FileVersion>2.0.4</FileVersion>
     <PackageProjectUrl></PackageProjectUrl>
     <RepositoryUrl>https://github.com/vpp090/ServiceResponseR</RepositoryUrl>
   </PropertyGroup>

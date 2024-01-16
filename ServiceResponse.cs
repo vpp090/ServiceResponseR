@@ -12,6 +12,7 @@ namespace ServiceResponseR
         public ServiceResponse(T data)
         {
             Data = data ?? throw new ArgumentException(nameof(data));
+            IsSuccess = true;
         }
 
         public ServiceResponse(string errorCode, string errorMessage, ErrorDetails errorDetails = null)
@@ -19,6 +20,7 @@ namespace ServiceResponseR
             ErrorCode = errorCode ?? throw new ArgumentException(nameof(errorCode));
             ErrorMessage = errorMessage ?? throw new ArgumentException(nameof(errorMessage));
             ErrorDetails = errorDetails;
+            IsSuccess = false;
         }
     }
 
